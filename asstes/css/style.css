@@ -1,0 +1,115 @@
+/* link Font goole */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;800&display=swap');
+:root{
+    --orang: #F67761;
+    --color-hero:#0E1255;
+    --color-1-font:#ffff;
+    --place-color:#23273C;
+
+
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+/* statr header */
+header{
+    background-color:var(--color-hero);
+    height: 100vh;
+    position: relative; 
+
+}
+.navbar{
+    background-color: unset!important;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+.navbar-nav .nav-item .nav-link {
+    color: #dddd;
+    margin: 10px;
+} 
+.navbar-nav .nav-item .nav-link.active {
+    color: var(--color-1-font);
+}
+.shopping{
+    width: 40px;
+    height: 40px;
+    background-color: #f8f9fa42;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 10px;
+}
+.shopping i{
+    color:var(--color-1-font);
+    top: 10px;
+    left: 10px;
+    position: absolute;
+    
+}
+.btn-warning {
+    color:var(--color-1-font);
+    background-color:var(--orang);
+    outline: none;
+    border: unset;
+    margin-left: 15px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 26px;
+    border-radius:6px !important ;
+ 
+}
+.btn-warning:hover{
+    background-color:var(--orang);
+}
+.hero{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.text {
+    text-align: start;
+    color: var(--color-1-font);
+}
+.text h1 {
+font-size: 50px;
+font-weight: 500;
+letter-spacing: 0px;
+text-align: left;
+
+}
+.text p{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0px;
+margin-top: 20px;
+
+}
+.imag img {
+width:490px;
+height:493px;
+
+
+}
+.waves .w-1 {
+    position: absolute;
+    top: 640px;
+    
+}
+.waves .w-2 {
+    position: absolute;
+    top:650px;
+    
+}
+.waves .w-3{
+    position: absolute;
+    top:633px;
+    
+}
+
+
+
+/* end header */
